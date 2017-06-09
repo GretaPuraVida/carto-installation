@@ -33,11 +33,6 @@ Follow [CARTO installation guide](http://cartodb.readthedocs.io/en/latest/instal
 
 ## Create a user
 
-```
-cd lib/sql/ && sudo make all install && bundle exec rake cartodb:db:load_functions
-cd -
-```
-
 [Create a user](http://cartodb.readthedocs.io/en/latest/operations/create_users.html).
 
 Add your user to `/etc/hosts`:
