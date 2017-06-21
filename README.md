@@ -29,6 +29,7 @@ Previous notes:
   - For SQL API you must edit `config/environments/development.js` and set `module.exports.node_host` to `0.0.0.0`.
   - For Windshaft you must edit `config/environments/development.js` and set `config.host` to `0.0.0.0`. 
 - You'll be prompted for the password on `bundle install`. It's `vagrant`.
+- Python dependencies installation of cartodb only work if you do it with the warning suggestion (`sudo CPLUS_INCLUDE_PATH=/usr/include/gdal C_INCLUDE_PATH=/usr/include/gdal PATH=$PATH:/usr/include/gdal pip install --no-use-wheel -r python_requirements.txt`).
 
 Follow [CARTO installation guide](http://cartodb.readthedocs.io/en/latest/install.html).
 
