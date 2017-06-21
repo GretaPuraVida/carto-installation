@@ -24,7 +24,7 @@ sudo apt-get install vim
 ## Install CARTO
 
 Previous notes:
-- I'd suggest you to go to your home `cd ~` before every `git clone`.
+- I'd suggest you to go to your home (`cd ~`) before every `git clone`.
 - Before running `node app.js development` for Node servers, do this:
   - For SQL API you must edit `config/environments/development.js` and set `module.exports.node_host` to `0.0.0.0`.
   - For Windshaft you must edit `config/environments/development.js` and set `config.host` to `0.0.0.0`. 
