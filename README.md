@@ -43,4 +43,4 @@ Add your user to `/etc/hosts`:
 127.0.0.1       juanignaciosl.localhost.lan
 ```
 
-Afterwards, you'll be able to login at http://localhost.lan:3000/login with your new user.
+Afterwards, you'll be able to login at http://juanignaciosl.localhost.lan:3000/login with your new user.
